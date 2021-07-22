@@ -1,5 +1,5 @@
 services:
-  access:
+  flow-access:
     image: gcr.io/flow-container-registry/access:${FLOW_GO_NODE_VERSION}
     command: >-
       --nodeid ${FLOW_GO_NODE_ID}
